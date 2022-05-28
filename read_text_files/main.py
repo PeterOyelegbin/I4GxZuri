@@ -13,11 +13,15 @@ def read_file_content(filename):
 def count_words():
     text = read_file_content("./story.txt")
     # [assignment] Add your code here
-    as_key = text.count("as")
-    would_key = text.count("would")
-    print("as:", as_key,", would:", would_key)
-    
-    #return {"as": 10, "would": 20}
+    counts = dict()
+    words = text.split(" ")
+    for word in words:
+    	if word in counts:
+    		counts[word] += 1
+    	else:
+    		counts[word] = 1
+    return counts
 
 
-count_words()
+keyWords = count_words()
+print(keyWords)
