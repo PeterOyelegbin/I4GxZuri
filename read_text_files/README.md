@@ -1,4 +1,4 @@
-# create a function to count each number of key words from a function that reads file contents.
+# create a function in Python to count each number of key words from a function that reads file contents.
 
 1. Open “main.py”, and complete the function “read_file_content”. It should accept a filename as an argument and read the text contained in that file. It should return a string.
 
