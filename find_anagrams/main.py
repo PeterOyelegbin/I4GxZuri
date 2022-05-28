@@ -12,8 +12,6 @@ def find_anagrams(word1, word2):
         print("True")
     else:
         print("False")
-        
-    return True
 
 
 find_anagrams("Heart", "Earth")
