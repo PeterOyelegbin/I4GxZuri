@@ -9,9 +9,10 @@ def find_anagrams(word1, word2):
     w2 = sorted(word2.lower())
     
     if (w1 == w2):
-        print("True")
+        return True
     else:
-        print("False")
+        return False
 
 
-find_anagrams("Heart", "Earth")
+a = find_anagrams("Heart", "Earth")
+print(a)
